@@ -51,6 +51,30 @@ All topologies follow standard **Cisco CCNA (Cisco Certified Network Associate)*
   </table>
 </div>
 
+### Cisco Packet Tracer Lab 01 Topology (Ring Backbone & LAN Switching)
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="45%" align="center">
+        <b>Packet Tracer Topology (Lab 01)</b><br/><br/>
+        <img src="docs/screenshots/lab01-packet-tracer-topology.png" width="90%" alt="Lab 01 Packet Tracer Ring Topology"/>
+      </td>
+      <td width="55%" valign="middle">
+        <h4>Cisco 2620XM Multi-Router Redundant Ring Architecture</h4>
+        <ul>
+          <li><b>Ring Backbone:</b> 4x Cisco 2620XM routers connected via Serial WIC-2T links.</li>
+          <li><b>Switched LAN Access:</b> 4x Cisco 2950-24 Catalyst switches with 8 host endpoints.</li>
+          <li><b>Central Network Services:</b> Dedicated TFTP / Configuration Management Server (<code>Server-A</code>).</li>
+          <li><b>Console OOB Management:</b> Rollover console interfaces for out-of-band router recovery.</li>
+          <li><b>Lab Theory:</b> Includes verified answers for Cisco IOS memory architecture (RAM, NVRAM, Flash, TFTP) and configuration backups.</li>
+        </ul>
+        <p align="left"><a href="labs/lab01-lan-switching-and-ip-addressing/"><b>Explore Lab 01 Documentation &amp; Topologies &rarr;</b></a></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## Repository Structure & Topology Catalog
