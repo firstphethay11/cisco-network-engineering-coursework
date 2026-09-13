@@ -24,33 +24,6 @@ All topologies follow standard **Cisco CCNA (Cisco Certified Network Associate)*
 
 ---
 
-## Visual Architecture Showcase
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <b>1. Multi-Protocol Enterprise Architecture (Final Project)</b><br/><br/>
-        <img src="docs/screenshots/01-final-routing-protocols-topology.png" width="100%" alt="Final Project Multi-Protocol Routing Topology"/>
-      </td>
-      <td width="50%" align="center">
-        <b>2. VLAN Segmentation & 802.1Q Trunking (Lab 02)</b><br/><br/>
-        <img src="docs/screenshots/02-vlan-trunking-topology.png" width="100%" alt="VLAN Segmentation and 802.1Q Inter-VLAN Routing"/>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center">
-        <b>3. Cisco IOS CLI Console & Routing Table Simulation</b><br/><br/>
-        <img src="docs/screenshots/03-ospf-rip-routing-table-simulation.png" width="100%" alt="Cisco IOS CLI show ip route and OSPF neighbor"/>
-      </td>
-      <td width="50%" align="center">
-        <b>4. Enterprise Security Gateway: ACL & NAT/PAT (Lab 04)</b><br/><br/>
-        <img src="docs/screenshots/04-acl-nat-security-topology.png" width="100%" alt="Enterprise Security ACL Packet Filtering and NAT Overload"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ### Cisco Packet Tracer Lab 01 Topology (Ring Backbone & LAN Switching)
 
 <div align="center">
@@ -123,6 +96,29 @@ All topologies follow standard **Cisco CCNA (Cisco Certified Network Associate)*
     </tr>
   </table>
   <p><a href="labs/lab03-dynamic-routing-protocols-rip-ospf/"><b>View Complete Lab 03 Documentation &amp; Topologies &rarr;</b></a></p>
+</div>
+
+### Cisco Packet Tracer Lab 04 (Border Security, ACL & NAT/PAT Overload)
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="45%" align="center">
+        <b>Packet Tracer Topology (Lab 4.1)</b><br/><br/>
+        <img src="docs/screenshots/lab04-1-nat-acl-topology.png" width="90%" alt="Lab 4.1 Border Gateway NAT and ACL Topology"/>
+      </td>
+      <td width="55%" valign="middle">
+        <h4>Enterprise Border Security &amp; Address Translation Architecture</h4>
+        <ul>
+          <li><b>Inside Private Subnets:</b> Dual departmental segments (<code>10.10.10.0/24</code> &amp; <code>172.16.0.0/24</code>) routed via <code>Router-A</code>.</li>
+          <li><b>Dynamic PAT Overload:</b> Translates multiple RFC 1918 private IP addresses to public Serial WAN IP (<code>202.28.28.14/28</code>).</li>
+          <li><b>Outside ISP Services:</b> Public DMZ subnet (<code>203.158.207.0/24</code>) providing DNS (<code>.11</code>) and external DHCP (<code>.1</code>).</li>
+          <li><b>Extended ACL 101 Filtering:</b> Granular packet filtering enforcing DNS (UDP 53) and HTTP (TCP 80) access while dropping Telnet and unauthorized inbound probes.</li>
+        </ul>
+        <p align="left"><a href="labs/lab04-enterprise-services-acl-nat/"><b>Explore Lab 04 Documentation &amp; Topologies &rarr;</b></a></p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
