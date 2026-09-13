@@ -100,6 +100,31 @@ All topologies follow standard **Cisco CCNA (Cisco Certified Network Associate)*
   <p><a href="labs/lab02-vlan-trunking-and-switching/"><b>View Complete Lab 02 Documentation &amp; Topologies &rarr;</b></a></p>
 </div>
 
+### Cisco Packet Tracer Lab 03 Suite (VLSM Subnetting, RIP & OSPF Area 0)
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        <b>Lab 3.1: VLSM Subnetting</b><br/><br/>
+        <img src="docs/screenshots/lab03-1-vlsm-subnetting-topology.png" width="100%" alt="Lab 3.1 VLSM Subnetting"/><br/>
+        <small>Binary /26, /27, /30 Hierarchical Allocation</small>
+      </td>
+      <td width="33%" align="center">
+        <b>Lab 3.2: RIP Dynamic Routing</b><br/><br/>
+        <img src="docs/screenshots/lab03-2-rip-routing-tables.png" width="100%" alt="Lab 3.2 RIP Dynamic Routing"/><br/>
+        <small>Hop Count Metric &amp; 4-Router RIB Convergence</small>
+      </td>
+      <td width="33%" align="center">
+        <b>Lab 3.3: OSPF Area 0 Backbone</b><br/><br/>
+        <img src="docs/screenshots/lab03-3-ospf-area0-backbone.png" width="100%" alt="Lab 3.3 OSPF Area 0 Backbone"/><br/>
+        <small>Link-State Shortest Path First (SPF) Tree</small>
+      </td>
+    </tr>
+  </table>
+  <p><a href="labs/lab03-dynamic-routing-protocols-rip-ospf/"><b>View Complete Lab 03 Documentation &amp; Topologies &rarr;</b></a></p>
+</div>
+
 ---
 
 ## Repository Structure & Topology Catalog
