@@ -75,6 +75,31 @@ All topologies follow standard **Cisco CCNA (Cisco Certified Network Associate)*
   </table>
 </div>
 
+### Cisco Packet Tracer Lab 02 Suite (VLANs, Spanning Tree & WLAN)
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        <b>Lab 2.1: Multi-Switch VLANs</b><br/><br/>
+        <img src="docs/screenshots/lab02-1-vlan-multi-switch.png" width="100%" alt="Lab 2.1 Multi-Switch VLAN Segmentation"/><br/>
+        <small>VLAN 11 Green &amp; VLAN 12 Yellow isolation</small>
+      </td>
+      <td width="33%" align="center">
+        <b>Lab 2.2: Spanning Tree Protocol</b><br/><br/>
+        <img src="docs/screenshots/lab02-2-stp-root-bridge.png" width="100%" alt="Lab 2.2 Spanning Tree Protocol"/><br/>
+        <small>Switch C Root Bridge &amp; Fa 0/1 Loop Blocking</small>
+      </td>
+      <td width="33%" align="center">
+        <b>Lab 2.3: Wireless LAN (WLAN)</b><br/><br/>
+        <img src="docs/screenshots/lab02-3-wlan-architecture.png" width="100%" alt="Lab 2.3 Wireless LAN Architecture"/><br/>
+        <small>WRT300N Wireless Routers &amp; Central Server</small>
+      </td>
+    </tr>
+  </table>
+  <p><a href="labs/lab02-vlan-trunking-and-switching/"><b>View Complete Lab 02 Documentation &amp; Topologies &rarr;</b></a></p>
+</div>
+
 ---
 
 ## Repository Structure & Topology Catalog
